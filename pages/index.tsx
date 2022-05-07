@@ -1,7 +1,13 @@
 import React from "react";
+import { GlobalStyle } from "styles/globals";
 
 function index() {
-  return <div>index</div>;
+  return (
+    <>
+      <GlobalStyle />
+      <div>index</div>
+    </>
+  );
 }
 
 export default index;

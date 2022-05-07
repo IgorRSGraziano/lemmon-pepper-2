@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "primaryPageBackground": "#EBEBEB",
+    "secondaryPageBackground": "#111111",
+    "primaryTextColor": "#000000",
+    "secondaryTextColor": "#FFFFFF",
+    "tertiaryTextColor": "#262626",
+    "quatenaryTextColor": "#FFFFFF",
+    "highLightColor": "#B11B1B"
+  },
+  "fonts": {
+    "primaryFont": "Open Sans",
+    "secondaryFont": "PT Serif"
+  }
+}
