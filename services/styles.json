@@ -11,5 +11,8 @@
   "fonts": {
     "primaryFont": "Open Sans",
     "secondaryFont": "PT Serif"
+  },
+  "sizes": {
+    "font1": "1.5rem"
   }
 }

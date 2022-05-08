@@ -17,7 +17,26 @@ a {
   text-decoration: none;
 }
 
+ul, li {
+  list-style: none;
+}
+
 * {
   box-sizing: border-box;
 }
 `;
+
+export const defaultContainer = (bgColor?: string, height?: string): string => `
+  ${bgColor ? `background-color: ${bgColor};` : ""}
+  ${height ? `height: ${height};` : ""}
+  width: 100vw;
+  margin: auto;
+`;
+
+export const defaultContent: string = `
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 25px;
+`;
+
+export const rem = (px: number): string => `${px / 16}rem`;
